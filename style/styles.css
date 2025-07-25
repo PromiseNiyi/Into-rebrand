@@ -326,7 +326,7 @@
 
   @media screen and (max-width: 1200px) {
 
-    .main-content h1 br{
+.main-content h1 br{
 
     display: block;
 }
@@ -348,6 +348,10 @@
             min-height: 100vh;
             height: auto;
         }
+        .main-content h1 br{
+
+            display: none;
+        }
         .main-content h1 {
             font-size: 40pt;
             font-weight: 500;
@@ -367,6 +371,15 @@
             letter-spacing: 1px;
             opacity: 0.8;
           }
+
+          .menu-button {
+            display: none;
+          }
+
+          .nav-links {
+              display: block;
+          }
+
 }
 
 
@@ -434,10 +447,22 @@
             font-size: 50pt;
             font-weight: 500;
           }
+
           
           .main-content .phone,
           .main-content .email {
             font-size: 15pt;
+          }
+          .menu-popup{
+            min-width: 200px;
+            width: auto;
+            /* transition: all 0.5s ease; */
+          }
+          .menu-popup a {
+            text-decoration: none;
+            color: #000000;
+            /* font-weight: bold; */
+            font-size: 20px;
           }
 
             /* Right vertical label */
@@ -455,3 +480,69 @@
 
       }
 
+      @media screen and (max-width: 700px) and (max-height: 400px) {
+        /* html,body{
+            min-height: 100%;
+            height: auto;
+            } */
+            .logo {
+                position: absolute;
+                top: 50px;
+                left: 50%;
+              }
+              .logo img{
+                width: 70px;
+              }
+            .main-content{
+                min-height: 100vh;
+                height: auto;
+                justify-content:center ;
+                text-align: left;
+            }
+            .main-content h1 br{
+    
+                display: none;
+            }
+            .main-content h1 {
+                font-size: 35pt;
+                font-weight: 500;
+              }
+              
+              .main-content .phone,
+              .main-content .email {
+                font-size: 20pt;
+              }
+              .side-label {
+                position: absolute;
+                right: 50px;
+                top: 50%;
+                transform: rotate(90deg) translateY(-50%);
+                transform-origin: right center;
+                font-size: 14px;
+                letter-spacing: 1px;
+                opacity: 0.8;
+              }
+    
+              .menu-button {
+                display: none;
+              }
+    
+              .nav-links {
+                  display: block;
+              }
+    
+    }
+
+    @media screen and (max-width: 740px) and (max-height: 360px) {
+        .menu-button {
+            display: none;
+          }
+
+          .nav-links {
+              display: block;
+          }
+          .main-content .phone,
+          .main-content .email {
+            font-size: 15pt;
+          }
+    }
