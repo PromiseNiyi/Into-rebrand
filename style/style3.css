@@ -1,0 +1,21 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
+    padding: 25px 150px 25px 200px;
+}
+.content .big h1{
+font-size: 95pt;
+font-weight: normal;
+letter-spacing: 10px;
+}
+
+.content .small p{
+    font-size: 20pt;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    line-height: 50px;
+}
+
