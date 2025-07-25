@@ -2,17 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Into | Home</title>
   <link rel="stylesheet" href="style/styles.css">
   <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 <body>
-
   <!-- Aurora animated background -->
   <div class="aurora-container">
     <div class="aurora"></div>
   </div>
 
+      <!-- Floating Menu Button -->
+      <button class="menu-button" id="menuToggle">&#9776;</button>
+
+      <!-- Popup Menu -->
+      <div class="menu-popup" id="menuPopup">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Partnership</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Full Website</a></li>
+        </ul>
+      </div>
+    
+      <!-- Overlay for background blur -->
   <!-- Logo -->
   <div class="logo"><img src="images/export logo.png" alt="logo"></div>
 
@@ -21,10 +36,16 @@
 
   <!-- Main contact section -->
   <div class="main-content">
-    <h1>Your Next Project</h1>
-    <p class="phone">+234(0)8139693841</p>
-    <p class="email">next@intocreativity.com</p>
+    <h1>Your Next <br> Project</h1>
+    <div class="inside">
+        <p class="phone">+234(0)8139693841</p>
+        <p class="email">next@intocreativity.com</p>
+    </div>
+
   </div>
+  
+
+      <div class="overlay" id="overlay"></div>
 
   <!-- Navigation links -->
   <nav class="nav-links">
@@ -39,5 +60,8 @@
 
   </nav>
 
+
+
+  <script src="script/scripts.js"></script>
 </body>
 </html>
