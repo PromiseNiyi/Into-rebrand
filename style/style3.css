@@ -7,10 +7,12 @@
     gap: 60px;
     padding: 25px 150px 25px 200px;
 }
+
 .content .big h1{
 font-size: 100pt;
 font-weight: normal;
 /* letter-spacing: 10px; */
+line-height: 120px;
 }
 
 .content .small p{
