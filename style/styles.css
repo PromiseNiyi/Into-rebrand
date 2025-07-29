@@ -146,8 +146,7 @@
   .main-content .email {
     font-size: 60pt;
     margin-bottom: 10px;
-    letter-spacing: 2pt;
-  }
+    }
   
   /* Navigation links */
   .nav-links {
@@ -268,7 +267,7 @@
     padding: 25px 30px;
     /* min-width: 250px; */
     width: 100%;
-    height: 100%;
+    height: 100vh;
     border-radius: 0;
     z-index: 1002;
     display: none;
@@ -431,7 +430,8 @@
           .main-content .phone,
           .main-content .email {
             font-size: 20pt;
-          }
+            letter-spacing: 2px;
+            }
           .side-label {
             position: absolute;
             right: 50px;
