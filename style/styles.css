@@ -523,7 +523,13 @@
         
       
       } 
+     @media screen and (max-width: 700px) {
 
+
+  .side-label {
+          display: none;
+  }
+}
 
       @media screen and (max-width: 500px) {
         .logo {
@@ -570,16 +576,16 @@
           }
 
             /* Right vertical label */
-  .side-label {
-    position: absolute;
-    right: 50px;
-    top: 40%;
-    transform: rotate(90deg) translateY(-50%);
-    transform-origin: right center;
-    font-size: 14px;
-    letter-spacing: 1px;
-    opacity: 0.8;
-  }
+        /* .side-label {
+          position: absolute;
+          right: 50px;
+          top: 40%;
+          transform: rotate(90deg) translateY(-50%);
+          transform-origin: right center;
+          font-size: 14px;
+          letter-spacing: 1px;
+          opacity: 0.8;
+        } */
   #main-cont{
     padding-right: 0;
   }
